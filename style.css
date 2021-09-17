@@ -34,7 +34,7 @@ header input {
     border: none;
     outline: none;   
     background-color: rgba(255, 255, 255, 0.3);  
-    border-radius: 16px 0 16px 0;
+    border-radius: 16px 0 0 0;
     border-bottom: 3px solid #f55d05c5;
     color: #313131;
     font-size: 20px;
@@ -52,13 +52,14 @@ header input:focus {
 }
 
 button {
-    position: absolute;    
-    top: 53px;
-    right: 630px;
+    position: fixed;    
     padding: 5px;
     background: transparent;
     border: none;
     cursor: pointer;
+     background-color: rgba(255, 255, 255, 0.3);  
+    border-radius:  0 16px 0 0;
+    border-bottom: 3px solid #f55d05c5;
 }
 
 main {
