@@ -22,7 +22,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     padding: 50px 15px 15px;
 
 }
@@ -84,7 +84,7 @@ main {
 
 .temp {
     color: white;
-    font-size: 150px;
+    font-size: 100px;
     margin-top: 30px;
     text-shadow:  2px 10px rgba(0, 0, 0, 0.6);
 }
